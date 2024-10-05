@@ -2,6 +2,7 @@
 
 * Студент: [Екатерина Уткина](https://up.htmlacademy.ru/htmlcss-individual/2/user/2568305).
 * Наставник: [Александр Румянцев](https://htmlacademy.ru/profile/id1521451).
+* Сайт: [Мой проект Седона](https://utkina-e.github.io/2568305-sedona-2/).
 
 ---
 

@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Екатерина Уткина](https://up.htmlacademy.ru/htmlcss-individual/2/user/2568305).
-* Наставник: `Неизвестно`.
+* Наставник: [Александр Румянцев](https://htmlacademy.ru/profile/id1521451).
 
 ---
 

@@ -24,19 +24,21 @@ body {
   font-style: normal;
   color: #333333;
   background-color: #F2F2F2;
+  margin: 0 auto;
+  width: 1200px;
 }
 
 /* Pages */
 
-.page-header {
+.header {
   color: #000000;
   background-color: #ffffff;
+
 }
 
 
 .navigation-link {
-  font-family: "PT Sans", sans-serif;
-  font-size: 20;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 700;
   text-align: center;
@@ -46,8 +48,13 @@ body {
 }
 
 .notification-badge {
-  font-family: "PT Sans";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background: #7DB54F;
   font-size: 10px;
+  letter-spacing: 0;
   text-align: center;
   color: #ffffff;
 }
@@ -57,10 +64,10 @@ body {
   height: 36px;
   padding: 8px 50px 8px 50px;
   border-radius: 4px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-    text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
   color: #ffffff;
   background: #756157;
   text-transform: uppercase;
@@ -68,22 +75,27 @@ body {
 }
 
 
-.main-index {
+.hero {
+  display: block;
+  background-color: #82B3D3;
   background-image: url("../images/background-index.png");
-  background-size: 100% auto, cover;
   background-repeat: no-repeat;
-  background-position: left top;
+  height: 485px;
+  width: 1200px;
+}
+
+.hero-img {
+  display: block;
+  align-items: center;
+
 }
 
 .advantages {
   background: #ffffff;
-  max-width: 1200px;
-  margin-top: 72px;
 }
 
 
 .advantages-lead {
-  font-family: "PT Sans";
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -91,26 +103,26 @@ body {
   text-transform: uppercase;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  padding-top: 69px;
+  width: 700px;
+  margin: 0 auto;
 }
 
 .advantages-lead-reason {
-  font-family: "PT Sans";
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  padding-bottom: 69px;
 }
 
 .advantages-item {
   background: #82B3D3;
-  width: 1200pxpx;
-  height: 385pxpx;
+
 }
 
 .advantages-title {
-  font-family: "PT Sans";
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -122,10 +134,6 @@ body {
 }
 
 .advantages-discription {
-  font-family: "PT Sans";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -134,12 +142,9 @@ body {
 
 .advantages-item2 {
   background: #83B3D31F;
-  width: 400pxpx;
-  height: 385pxpx;
 }
 
 .advantages-title2 {
-  font-family: PT Sans;
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
@@ -151,10 +156,6 @@ body {
 }
 
 .advantages-discription2 {
-  font-family: "PT Sans";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -163,19 +164,14 @@ body {
 
 .advantages-item3 {
   background: #83B3D333;
-  width: 400pxpx;
-  height: 385pxpx;
 }
 
 .advantages-item4 {
   background: #83B3D31F;
-  width: 400pxpx;
-  height: 385pxpx;
 }
 
 
 .infrastructure-lead {
-  font-family: "PT Sans";
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -186,32 +182,24 @@ body {
 }
 
 .infrastructure-lead-reason {
-  font-family: "PT Sans";
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
 }
 
 .infrastructure-title {
-  font-family: "PT Sans";
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-
+  text-transform: uppercase;
 }
 
 .infrastructure-discription {
-  font-family: "PT Sans";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -224,45 +212,38 @@ body {
 
 .infrastructure-item2 {
   background: #ffffff33;
-  }
-
-  .infrastructure-item3 {
-    background: #83B3D31F;
-    }
-
-.search {
-  width: 1200;
-  background-color: #FFFFFF;
-  color: #000;
 }
 
+.infrastructure-item3 {
+  background: #83B3D31F;
+}
 
+.search {
+    background-color: #FFFFFF;
+  color: #000;
+  text-align: center;
+height: 406px;
+
+}
 
 .search-title {
-  font-family: "PT Sans";
+
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
+  text-transform: uppercase;
 }
 
 .search-discription {
-  font-family: "PT Sans";
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
 }
 
 .search-button {
   width: 376px;
-height: 52px;
-padding: 8px 50px 8px 50px;
-border-radius: 4px;
+  height: 52px;
+  padding: 8px 50px 8px 50px;
+  border-radius: 4px;
   font-size: 20px;
   font-weight: 700;
   line-height: 20px;
@@ -277,14 +258,14 @@ border-radius: 4px;
 /* subscribe index*/
 
 .subscribe-index {
+  background-color: #82B3D3;
+  display: block;
   background-image: url("../images/background-subscribe.png");
-  background-size: 100% auto, cover;
   background-repeat: no-repeat;
-  background-position: left top;
+  height: 415px;
 }
 
 .subscribe-lead {
-  font-family: "PT Sans";
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -296,9 +277,7 @@ border-radius: 4px;
 }
 
 .subscribe-lead-reason {
-  font-family: "PT Sans";
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   text-align: center;
   text-underline-position: from-font;
@@ -310,12 +289,11 @@ border-radius: 4px;
   width: 232px;
   height: 52px;
   padding: 8px 50px 8px 50px;
-  gap: 10px;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
   border: #82B3D3;
   background: #82B3D3;
   text-align: center;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   color: #ffffff;
   font-size: 20px;
   font-weight: 700;
@@ -328,12 +306,11 @@ border-radius: 4px;
 .page-footer {
   color: #000000;
   background-color: #ffffff;
+
 }
 
 .footer-phone {
-  font-family: "PT Sans";
   font-size: 40px;
-  font-weight: 400;
   line-height: 40px;
   text-align: center;
   text-underline-position: from-font;
@@ -347,6 +324,7 @@ border-radius: 4px;
 /*УНИКАЛЬНЫЕ СЕЛЕКТОРЫ СТРАНИЦЫ КАТАЛОГ*/
 
 .main-inner {
+  display: block;
   background-image: url("../images/background-filters.png");
   background-size: 100% auto, cover;
   background-repeat: no-repeat;
@@ -354,7 +332,6 @@ border-radius: 4px;
 }
 
 .inner-header-title {
-  font-family: "PT Sans";
   font-size: 60px;
   font-weight: 700;
   line-height: 78px;
@@ -365,10 +342,7 @@ border-radius: 4px;
 }
 
 .breadcrumbs {
-  font-family: "PT Sans";
   font-size: 16px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -376,10 +350,7 @@ border-radius: 4px;
 }
 
 .breadcrumbs-link {
-  font-family: "PT Sans";
   font-size: 16px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
@@ -388,12 +359,11 @@ border-radius: 4px;
 
 .catalog-products {
   background: #ffffff;
-  max-width: 1200px;
+
   padding-top: 50px;
 }
 
 .catalog-filter-title {
-  font-family: "PT Sans";
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -404,9 +374,6 @@ border-radius: 4px;
 }
 
 .catalog-filter-list {
-  font-family: "PT Sans";
-  font-size: 18px;
-  font-weight: 400;
   line-height: 23px;
   text-align: left;
   color: #ffffff;
@@ -415,11 +382,13 @@ border-radius: 4px;
 }
 
 .catalog-filter-submit {
-  font-family: "PT Sans";
+  font-family: "Pt sans", sans-serif, Arial;
+  font-size: 16px;
+  font-weight: 700;
   width: 191px;
   height: 36px;
   padding: 8px 50px 8px 50px;
-  gap: 10px;
+  border-radius: 4px;
   color: #ffffff;
   background: #82B3D3;
   border: #82B3D3;
@@ -427,11 +396,13 @@ border-radius: 4px;
 }
 
 .catalog-filter-reset {
-  font-family: "PT Sans";
+  font-family: "Pt sans", sans-serif, Arial;
+  font-size: 16px;
+  font-weight: 700;
   width: 191px;
   height: 36px;
   padding: 8px 50px 8px 50px;
-  gap: 10px;
+  border-radius: 4px;
   color: #FFFFFF;
   border: none;
   background-color: rgba(28, 28, 28, 0);
@@ -443,9 +414,9 @@ border-radius: 4px;
 .product-card {
   width: 340px;
   height: auto;
-  padding: 20px 0px 0px 0px;
+  padding: 20px;
   gap: 16px;
-  border-radius: 4px 0px 0px 0px;
+  border-radius: 4px;
   border: 1px solid #E5E5E5;
 }
 
@@ -454,31 +425,20 @@ border-radius: 4px;
   height: 28px;
   top: 248px;
   left: 20px;
-  gap: 0px;
 }
 
 .product-card-type {
-  font-family: "PT Sans";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: left;
 }
 
 .product-card-price {
-  font-family: "PT Sans";
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 21px;
   text-align: right;
 }
 
 .product-card-button {
-  width: 140px;
-  height: 36px;
-  padding: 8px 50px 8px 50px;
-  gap: 10px;
-  border-radius: 4px 0px 0px 0px;
+  font-family: "Pt sans", sans-serif, Arial;
+  padding: 8px 26px 8px 26px;
+  border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -490,11 +450,9 @@ border-radius: 4px;
 }
 
 .add-favorite-button {
-  width: 140px;
-  height: 36px;
-  padding: 8px 50px 8px 50px;
+  padding: 8px 26px 8px 26px;
   gap: 10px;
-  border-radius: 4px 0px 0px 0px;
+  border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -506,11 +464,9 @@ border-radius: 4px;
 }
 
 .favorite-button {
-  width: 140px;
-  height: 36px;
-  padding: 8px 50px 8px 50px;
+  padding: 8px 26px 8px 26px;
   gap: 10px;
-  border-radius: 4px 0px 0px 0px;
+  border-radius: 4px;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
@@ -526,7 +482,6 @@ border-radius: 4px;
   height: 37px;
   border-radius: 4px;
   font-size: 16px;
-  font-weight: 700;
   line-height: 20px;
   text-align: center;
   color: #000000;
@@ -545,7 +500,6 @@ border-radius: 4px;
   font-weight: 700;
   text-align: center;
   border-radius: 4px;
-  opacity: 0px;
   background: #82B3D3;
   color: #ffffff;
   text-decoration: none;
@@ -557,7 +511,6 @@ border-radius: 4px;
   font-weight: 700;
   text-align: center;
   border-radius: 4px;
-  opacity: 0px;
   color: #000;
   background: #F2F2F2;
 }
@@ -566,13 +519,12 @@ border-radius: 4px;
 /* subscribe catalog*/
 
 .subscribe-catalog {
-  width: 1200;
+
   background-color: #FFFFFF;
   color: #000;
 }
 
 .subscribe-catalog-lead {
-  font-family: "PT Sans";
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
@@ -584,9 +536,7 @@ border-radius: 4px;
 }
 
 .subscribe-catalog-lead-reason {
-  font-family: "PT Sans";
   font-size: 22px;
-  font-weight: 400;
   line-height: 26px;
   text-align: center;
   text-underline-position: from-font;

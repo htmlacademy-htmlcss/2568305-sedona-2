@@ -327,6 +327,7 @@ height: 406px;
   display: block;
   background-image: url("../images/background-filters.png");
   background-size: 100% auto, cover;
+  background-color:#85b6d675;
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -355,11 +356,11 @@ height: 406px;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .catalog-products {
   background: #ffffff;
-
   padding-top: 50px;
 }
 
@@ -425,6 +426,14 @@ height: 406px;
   height: 28px;
   top: 248px;
   left: 20px;
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
 }
 
 .product-card-type {

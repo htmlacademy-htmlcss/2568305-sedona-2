@@ -15,17 +15,24 @@
   font-display: swap;
 }
 
+html {
+  height: 100%;
+}
 
 body {
-  font-family: "PT Sans", sans-serif;
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
   font-style: normal;
   color: #333333;
   background-color: #F2F2F2;
-  margin: 0 auto;
-  width: 1200px;
+  box-shadow: 0 0 15px 0 #00000033;
 }
 
 /* Pages */
@@ -36,6 +43,24 @@ body {
 
 }
 
+.navigation {
+  display: flex;
+  margin: 0 auto;
+}
+
+.navigation-list {
+  width: 510px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  max-width: 400px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-between;
+
+}
 
 .navigation-link {
   font-size: 20px;
@@ -74,9 +99,18 @@ body {
   text-decoration: none;
 }
 
+.main-container {
+  flex-grow: 1;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
 
 .hero {
-  display: block;
+  display: flex;
+  margin: 0 auto;
   background-color: #82B3D3;
   background-image: url("../images/background-index.png");
   background-repeat: no-repeat;
@@ -87,11 +121,14 @@ body {
 .hero-img {
   display: block;
   align-items: center;
+  margin-top: 50px;
 
 }
 
 .advantages {
   background: #ffffff;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -117,16 +154,22 @@ body {
   padding-bottom: 69px;
 }
 
-.advantages-item {
-  background: #82B3D3;
 
+
+.advantages-item-square {
+
+  text-align: center;
+
+}
+
+.row {
+  background: #82B3D3;
 }
 
 .advantages-title {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
-  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #FFFFFF;
@@ -134,21 +177,20 @@ body {
 }
 
 .advantages-discription {
-  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #FFFFFF;
 }
 
-.advantages-item2 {
+.square2 {
   background: #83B3D31F;
+
 }
 
 .advantages-title2 {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
-  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #000000;
@@ -156,20 +198,25 @@ body {
 }
 
 .advantages-discription2 {
-  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
   color: #000000;
 }
 
-.advantages-item3 {
+.square3 {
   background: #83B3D333;
+
 }
 
-.advantages-item4 {
+.square4 {
   background: #83B3D31F;
+
 }
 
+.infrastructure {
+  background: #ffffff;
+
+}
 
 .infrastructure-lead {
   font-size: 30px;
@@ -187,6 +234,14 @@ body {
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+}
+
+.infrastructure-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .infrastructure-title {
@@ -219,10 +274,11 @@ body {
 }
 
 .search {
-    background-color: #FFFFFF;
+  background-color: #FFFFFF;
   color: #000;
   text-align: center;
-height: 406px;
+  height: 406px;
+  padding: 0 auto;
 
 }
 
@@ -259,7 +315,7 @@ height: 406px;
 
 .subscribe-index {
   background-color: #82B3D3;
-  display: block;
+  /* display: block; */
   background-image: url("../images/background-subscribe.png");
   background-repeat: no-repeat;
   height: 415px;
@@ -309,6 +365,18 @@ height: 406px;
 
 }
 
+.page-footer-container {
+  display: flex;
+  width: 1062px;
+  margin: 0 auto;
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .footer-phone {
   font-size: 40px;
   line-height: 40px;
@@ -327,7 +395,7 @@ height: 406px;
   display: block;
   background-image: url("../images/background-filters.png");
   background-size: 100% auto, cover;
-  background-color:#85b6d675;
+  background-color: #85b6d675;
   background-repeat: no-repeat;
   background-position: left top;
 }
@@ -359,9 +427,30 @@ height: 406px;
   text-decoration: none;
 }
 
+.filters-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.catalog-filter-group {
+width: 150px;
+}
+
+.catalog-filter-money {
+  width: 288px;
+}
+
+catalog-filter-container {
+  width: 191px;
+
+}
 .catalog-products {
   background: #ffffff;
   padding-top: 50px;
+}
+
+  product-list {
+ display: flex;
 }
 
 .catalog-filter-title {

@@ -30,7 +30,7 @@ body {
   line-height: 21px;
   font-weight: 400;
   font-style: normal;
-  color: #333333;
+  color: #000000;
   background-color: #F2F2F2;
   box-shadow: 0 0 15px 0 #00000033;
 }
@@ -192,6 +192,7 @@ position: relative;
   text-align: center;
   padding-bottom: 69px;
   margin: 0;
+  color:#333333;
 }
 
 
@@ -295,6 +296,7 @@ position: relative;
   width: 550px;
   margin-left: auto;
   margin-right: auto;
+  color:#333333;
 }
 
 
@@ -344,7 +346,6 @@ position: relative;
 
 .search {
   background-color: #FFFFFF;
-  color: #000;
   text-align: center;
   height: 406px;
   padding: 0 auto;
@@ -367,6 +368,7 @@ position: relative;
   margin: 0 auto;
   max-width: 600px;
   padding-bottom: 65px;
+  color:#333333;
 }
 
 .search-button {

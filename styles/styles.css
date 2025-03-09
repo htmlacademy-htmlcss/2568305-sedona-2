@@ -149,7 +149,7 @@ body {
   margin: 0 auto;
 }
 
-.cover {
+.hero {
   background-image: url("../images/background-index.png");
   background-repeat: no-repeat;
   background-size: cover;

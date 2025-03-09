@@ -66,7 +66,7 @@ body {
 .navigation-logo {
   display: block;
   margin-left: 70px;
-position: relative;
+  position: relative;
 }
 
 
@@ -99,7 +99,7 @@ position: relative;
 }
 
 
-.navigation-link .navigation-user  {
+.navigation-link .navigation-user {
   padding: 22px 12px;
   min-width: 20px;
   min-height: 20px;
@@ -192,7 +192,7 @@ position: relative;
   text-align: center;
   padding-bottom: 69px;
   margin: 0;
-  color:#333333;
+  color: #333333;
 }
 
 
@@ -296,7 +296,7 @@ position: relative;
   width: 550px;
   margin-left: auto;
   margin-right: auto;
-  color:#333333;
+  color: #333333;
 }
 
 
@@ -368,7 +368,7 @@ position: relative;
   margin: 0 auto;
   max-width: 600px;
   padding-bottom: 65px;
-  color:#333333;
+  color: #333333;
 }
 
 .search-button {
@@ -543,7 +543,8 @@ position: relative;
 }
 
 .filters-columns-section fieldset:nth-child(1) {
-margin-right: 70px;}
+  margin-right: 70px;
+}
 
 .catalog-filter-group {
   border: none;
@@ -579,8 +580,8 @@ margin-right: 70px;}
 
 .catalog-filter-container {
   display: block;
-padding: 0;
-margin-left: auto;
+  padding: 0;
+  margin-left: auto;
 }
 
 .catalog-filter-submit {
@@ -627,8 +628,8 @@ margin-left: auto;
 }
 
 .catalog-products-title {
-margin: 0 200px 0 0;
-text-transform: uppercase;
+  margin: 0 200px 0 0;
+  text-transform: uppercase;
 }
 
 option {
@@ -659,7 +660,7 @@ option {
 
 .product-list {
   display: flex;
- justify-content: start;
+  justify-content: start;
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
@@ -672,7 +673,7 @@ option {
   padding: 20px;
   border-radius: 4px;
   /* border: 1px solid #E5E5E5; */
-  box-shadow:  0 0 0 1px  #e6e6e6;
+  box-shadow: 0 0 0 1px #e6e6e6;
   list-style-type: none;
 }
 
@@ -741,9 +742,11 @@ option {
   text-decoration: none;
 }
 
+
 .product-card-rating {
-  width: 140px;
-  height: 37px;
+  display: block;
+  margin: 0;
+  padding: 9px 23px;
   border-radius: 4px;
   font-size: 16px;
   line-height: 20px;
@@ -752,6 +755,7 @@ option {
   background: #F2F2F2;
   text-transform: uppercase;
   text-decoration: none;
+  align-items: center;
 }
 
 /*пагинация*/
@@ -766,7 +770,7 @@ option {
   margin-top: 80px;
   max-width: 1060px;
   gap: 8px;
-  list-style-type:none;
+  list-style-type: none;
 }
 
 /* .pagination-item {

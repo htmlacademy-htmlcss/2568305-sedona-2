@@ -137,33 +137,35 @@ body {
 
 .main-container {
   flex-grow: 1;
-  padding-top: 51px;
   margin-top: -10px;
 }
 
 .main-index {
   background-color: #82B3D3;
-  background-image: url("../images/background-index.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  width: 1200px;
 }
 
 .page-container {
   width: 1200px;
-  /* margin: 0 auto; */
+  margin: 0 auto;
 }
 
+.cover {
+  background-image: url("../images/background-index.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1200px;
+}
 
 .hero-img {
   display: block;
   margin: 0 auto;
-  margin-bottom: 82px;
-  background-size: cover;
+  padding-top: 51px;
+  padding-bottom: 25px;
 }
 
-
-
+.background-border {
+  margin-bottom: -4px;
+}
 
 .advantages {
   background: #ffffff;
@@ -392,8 +394,10 @@ body {
   background-color: #82B3D3;
   background-image: url("../images/background-subscribe.png");
   background-repeat: no-repeat;
-  height: 415px;
+  background-size: cover;
   margin: 0 auto;
+  padding-top: 96px;
+  padding-bottom: 104px;
 }
 
 .subscribe {
@@ -404,7 +408,7 @@ body {
   color: #ffffff;
   text-transform: uppercase;
   margin: 0 auto;
-  padding-top: 96px;
+  /* padding-top: 96px; */
   padding-bottom: 20px;
 }
 
@@ -495,7 +499,7 @@ body {
 .filters {
   display: block;
   background-image: url("../images/background-filters.png");
-  background-size: 100% auto, cover;
+  background-size: cover;
   background-color: #85b6d675;
   background-repeat: no-repeat;
   background-position: left top;
@@ -789,7 +793,7 @@ option {
   color: #ffffff;
   text-decoration: none;
   max-width: 60px;
-  padding: 12px 25px;
+  padding: 12px 24px;
 }
 
 
@@ -799,6 +803,9 @@ option {
   background: #F2F2F2;
 }
 
+.last {
+  padding: 12px 19px;
+}
 
 .pagination-text {
   font-size: 20px;
@@ -809,16 +816,15 @@ option {
   text-decoration: none;
   min-width: 60px;
   min-height: 60px;
-  padding: 11px 18px;
+  padding: 16px 22px;
 }
 
 /* subscribe catalog*/
 
 .subscribe-catalog {
-  padding: 96px auto 104px;
+  padding: 96px 104px;
   background-color: #FFFFFF;
   color: #000;
-  height: 415px;
   margin: 0 auto;
 }
 

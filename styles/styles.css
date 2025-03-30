@@ -191,7 +191,7 @@ body {
   position: absolute;
   right: 16px;
   left: 16px;
-  bottom: -1px;
+  bottom: 0;
   height: 2px;
   background-color: #756257;
   content: "";
@@ -315,7 +315,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  padding-bottom: 69px;
+  padding-bottom: 90px;
   margin: 0;
   color: #333333;
 }
@@ -1035,6 +1035,26 @@ placeholder {
   cursor: pointer;
 }
 
+.product-card-stars-4 {
+  background-image: url("../images/Star-4.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 0;
+}
+
+.product-card-stars-3 {
+  background-image: url("../images/Star-3.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 0;
+}
+
+.product-card-stars-2 {
+  background-image: url("../images/Star-2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin: 0;
+}
 
 .product-card-rating {
   padding: 9px 22px;

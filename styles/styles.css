@@ -261,6 +261,14 @@ body {
   padding: 20px 16px;
 }
 
+.navigation-link:hover {
+  color: #756157;
+}
+
+.navigation-link:active {
+  color: #756157;
+  opacity: 30%;
+}
 
 .navigation-link:focus-visible {
   outline: none;
@@ -312,6 +320,9 @@ body {
   fill: #756157;
   opacity: 30%;
 }
+
+
+
 
 
 
@@ -1492,9 +1503,9 @@ input:active {
   align-items: center;
 }
 
-/* .modal-container-close {
+.modal-container-close {
   display: none;
-} */
+}
 
 .modal {
 

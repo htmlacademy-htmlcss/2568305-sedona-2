@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <header class="header">
+    <header class="header" data-test="header">
       <nav class="navigation">
         <a class="navigation-logo" href="index.html">
           <img class="page-header-logo" src="images/logo.svg" width="140" height="70" alt="Логотип города Седона">
@@ -56,7 +56,7 @@
       </nav>
     </header>
 
-    <main class="main-container main-inner">
+    <main class="main-container main-inner" data-test="main">
       <div class="page-container">
 
         <section class="filters">
@@ -64,11 +64,9 @@
           <ol class="breadcrumbs">
             <li class="breadcrumbs-item">
               <a class="breadcrumbs-link" href="index.html">
-                <svg aria-hidden="true" focusable="false" width="12" height="12"
-                  xmlns="http://www.w3.org/2000/svg">
+                <svg aria-hidden="true" focusable="false" width="12" height="12" xmlns="http://www.w3.org/2000/svg">
                   <path
-                    d="M6.5 0.5L0.5 6.30006V12.5001H12.5V6.30006L6.5 0.5ZM11.5 11.5001H1.5V6.70005L6.5 1.9L11.5 6.70005V11.5001Z"
-                   />
+                    d="M6.5 0.5L0.5 6.30006V12.5001H12.5V6.30006L6.5 0.5ZM11.5 11.5001H1.5V6.70005L6.5 1.9L11.5 6.70005V11.5001Z" />
                   <path d="M4.5 10.5001H5.5V8.00005H7.5V10.5001H8.5V7.00005H4.5V10.5001Z" />
                 </svg>
                 <span class="visually-hidden">Главная</span>
@@ -86,7 +84,7 @@
             </li>
           </ol>
 
-          <h2 class="visually-hidden">Фильтры</h2>
+          <h2 class="visually-hidden" data-test="filter">Фильтры</h2>
           <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
             <div class="filters-columns">
@@ -159,7 +157,7 @@
                 <div class="range">
                   <div class="filter-price-wrapper">
                     <label class="placeholder-wrapper filter-price--min">
-                      <input type="text" class="filter-price filter-price--min" value="0" placeholder="0" >
+                      <input type="text" class="filter-price filter-price--min" value="0" placeholder="0">
                       <span class="placeholder">от</span>
                     </label>
                     <label class="placeholder-wrapper filter-price--max">
@@ -194,7 +192,7 @@
 
 
 
-      <section class="catalog-products">
+      <section class="catalog-products" data-test="catalog">
         <div class="catalog-products-container">
           <h2 class="catalog-products-title">Найдено гостиниц: <span>38</span></h2>
           <div class="select sorting-type">
@@ -330,7 +328,7 @@
         </ul>
       </section>
 
-      <section class="subscribe-catalog">
+      <section class="subscribe-catalog" data-test="subscribe">
         <h2 class="subscribe black">Подпишитесь на рассылку</h2>
         <p class="subscribe-reason black">Только полезная информация и никакого спама, честное бойскаутское!</p>
 
@@ -343,7 +341,7 @@
     </main>
 
 
-    <footer class="page-footer">
+    <footer class="page-footer" data-test="footer">
       <div class="page-footer-container">
         <ul class="footer-social-list">
           <li class="footer-social-item">
@@ -382,8 +380,8 @@
 
         <div class="footer-phone-wrapper"><a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a></div>
         <a class="copyright" href="https://htmlacademy.ru/intensive/htmlcss">
-          <svg class="htmlacademy-logo" aria-hidden="true" focusable="false" width="115"
-            height="34" xmlns="http://www.w3.org/2000/svg">
+          <svg class="htmlacademy-logo" aria-hidden="true" focusable="false" width="115" height="34"
+            xmlns="http://www.w3.org/2000/svg">
             <path d="M0 13.2564V15.8564H2.5V13.2564H0Z" />
             <path
               d="M11.6 4.85645C10 4.85645 8.8 5.55645 8 6.55645H7.9V0.356445H5.9V15.8564H7.9V10.5564C7.9 8.45645 9.2 6.95645 11.2 6.95645C13 6.95645 14.1 8.35645 14.1 10.1564V15.8564H16.1V9.75644C16.2 6.75644 14.3 4.85645 11.6 4.85645Z" />

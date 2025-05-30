@@ -460,6 +460,7 @@ body {
   height: 2px;
   background-color: #0000004D;
   content: "";
+  left: 55px;
 }
 
 .with-img {
@@ -474,6 +475,7 @@ body {
   height: 2px;
   background-color: #FFFFFF4D;
   content: "";
+  left: 55px;
 }
 
 

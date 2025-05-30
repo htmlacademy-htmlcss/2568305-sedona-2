@@ -442,19 +442,20 @@ body {
 .advantages-container-discription {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 102px 85px;
 }
 
 .without-img {
-  padding: 113px 85px;
   position: relative;
 }
 
-.without-img::before {
+.without-img::after {
   position: absolute;
-  bottom: 184px;
+  display: block;
+  bottom: -30px;
   width: 60px;
   height: 2px;
   background-color: #0000004D;
@@ -465,9 +466,10 @@ body {
   position: relative;
 }
 
-.with-img::before {
+.with-img::after {
   position: absolute;
-  bottom: 195px;
+  display: block;
+  bottom: -30px;
   width: 60px;
   height: 2px;
   background-color: #FFFFFF4D;

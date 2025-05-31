@@ -959,17 +959,21 @@ input:active {
   fill: #FFFFFF99;
 }
 
-.breadcrumbs-link:focus {
+
+.breadcrumbs-link:focus,
+.breadcrumbs-link:focus-visible {
   outline: none;
-  color: white;
-  fill: white;
+  -webkit-box-shadow: 0 0 0 2px #68A2CA;
+  box-shadow: 0 0 0 2px #68A2CA;
 }
+
 
 .breadcrumbs-link:active {
   outline: none;
   color: #FFFFFF4D;
   fill: #FFFFFF4D;
 }
+
 
 .filters-columns {
   display: -webkit-box;
@@ -1038,9 +1042,14 @@ input:active {
   color: rgba(255, 255, 255, 0.7);
 }
 
+.control:focus,
 .control:focus-visible {
-  color: rgba(255, 255, 255);
-  border: #68A2CA;
+  /* color: rgba(255, 255, 255);
+  border: #68A2CA; */
+
+  outline: none;
+  -webkit-box-shadow: 0 0 0 2px #68A2CA;
+  border: 0 0 0 2px #68A2CA;
 }
 
 .control:active {
@@ -1059,10 +1068,14 @@ input:active {
   border-radius: 4px;
 }
 
+.control-mark:focus,
 .control-mark:focus-visible {
-  color: rgba(255, 255, 255);
-  border: #68A2CA;
+  /* outline: none; */
+  -webkit-box-shadow: 0 0 0 2px #68A2CA;
+  box-shadow: 0 0 0 2px #68A2CA;
 }
+
+
 
 .control:hover .control-mark {
   background-color: rgba(255, 255, 255, 0.7);
@@ -1102,6 +1115,13 @@ input:active {
   background-color: rgba(63, 94, 114, 1);
   border-radius: 50%;
   content: "";
+}
+
+.control-input:focus,
+.control-input:focus-visible {
+  outline: none;
+  -webkit-box-shadow: 0 0 0 2px #68A2CA;
+  box-shadow: 0 0 0 2px #68A2CA;
 }
 
 

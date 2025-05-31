@@ -1075,6 +1075,11 @@ input:active {
   box-shadow: 0 0 0 2px #68A2CA;
 }
 
+.control-mark:active {
+  -webkit-box-shadow: 0 0 0 2px #68A2CA;
+  box-shadow: 0 0 0 2px #68A2CA;
+}
+
 
 
 .control:hover .control-mark {

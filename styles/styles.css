@@ -1044,9 +1044,6 @@ input:active {
 
 .control:focus,
 .control:focus-visible {
-  /* color: rgba(255, 255, 255);
-  border: #68A2CA; */
-
   outline: none;
   -webkit-box-shadow: 0 0 0 2px #68A2CA;
   border: 0 0 0 2px #68A2CA;
@@ -1054,6 +1051,7 @@ input:active {
 
 .control:active {
   color: rgba(255, 255, 255, 0.3);
+  border: 0 0 0 2px #68A2CA;
 }
 
 
@@ -1076,6 +1074,7 @@ input:active {
 }
 
 .control-mark:active {
+  outline: none;
   -webkit-box-shadow: 0 0 0 2px #68A2CA;
   box-shadow: 0 0 0 2px #68A2CA;
 }

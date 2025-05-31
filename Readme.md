@@ -1,7 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Екатерина Уткина](https://up.htmlacademy.ru/htmlcss-individual/2/user/2568305).
-* Наставник: `Неизвестно`.
+* Наставник: [Оксана Вайнруб](https://htmlacademy.ru/profile/id166797).
+* Сайт: [Мой проект Седона](https://utkina-e.github.io/2568305-sedona-2/).
 
 ---
 

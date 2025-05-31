@@ -1031,10 +1031,12 @@ input:active {
 
 
 /* Control */
+
 .control {
   position: relative;
   display: block;
   padding-left: 36px;
+  cursor: pointer;
 }
 
 .control-mark {
@@ -1070,11 +1072,11 @@ input:active {
 
 
 .control:active .control-mark {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .control:active {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {

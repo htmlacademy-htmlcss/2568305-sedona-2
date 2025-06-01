@@ -847,6 +847,11 @@ input:active {
 }
 
 
+.footer-phone-wrapper {
+  max-width: 700px;
+}
+
+
 .footer-phone {
   font-size: 40px;
   line-height: 50px;
@@ -1514,21 +1519,21 @@ input:active {
 }
 
 .product-card-stars-4 {
-  background-image: url("../images/Star-4.png");
+  background-image: url("../images/star-4.png");
   background-repeat: no-repeat;
   background-position: top;
   margin: 0;
 }
 
 .product-card-stars-3 {
-  background-image: url("../images/Star-3.png");
+  background-image: url("../images/star-3.png");
   background-repeat: no-repeat;
   background-position: top;
   margin: 0;
 }
 
 .product-card-stars-2 {
-  background-image: url("../images/Star-2.png");
+  background-image: url("../images/star-2.png");
   background-repeat: no-repeat;
   background-position: top;
   margin: 0;

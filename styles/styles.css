@@ -1031,6 +1031,7 @@ input:active {
 
 
 /* Control */
+
 .control {
   position: relative;
   display: block;
@@ -1038,82 +1039,67 @@ input:active {
   cursor: pointer;
 }
 
-.control:hover {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.control:focus,
-.control:focus-visible {
-  outline: none;
-  -webkit-box-shadow: 0 0 0 2px #68A2CA;
-  border: 0 0 0 2px #68A2CA;
-}
-
-.control:active {
-  color: rgba(255, 255, 255, 0.3);
-  border: 0 0 0 2px #68A2CA;
-}
-
-
-/* Mark */
 .control-mark {
   position: absolute;
   top: 2px;
   left: 0;
-  width: 20px;
-  height: 20px;
+  width: 16px;
+  height: 16px;
   background-color: #FFFFFF;
   border-radius: 4px;
+  border: 2px solid transparent;
 }
-
-.control-mark:focus,
-.control-mark:focus-visible {
-  /* outline: none; */
-  -webkit-box-shadow: 0 0 0 2px #68A2CA;
-  box-shadow: 0 0 0 2px #68A2CA;
-}
-
-.control-mark:active {
-  outline: none;
-  -webkit-box-shadow: 0 0 0 2px #68A2CA;
-  box-shadow: 0 0 0 2px #68A2CA;
-}
-
-
 
 .control:hover .control-mark {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.control:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.control-input:focus + .control-mark,
+.control-input:focus-visible + .control-mark {
+  background-color: #FFFFFF;
+  border-color: #82B3D3;
+}
+
+.control-input:focus,
+.control-input:focus-visible {
+  background-color: #FFFFFF;
+  border-color: #82B3D3;
+}
+
+
+.control:active .control-mark {
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-.control-input:disabled + .control-mark {
-  background-color: rgba(255, 255, 255, 0.7);
+.control:active {
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .control-input[type="checkbox"]:checked + .control-mark::before {
   content: "";
   position: absolute;
-  top: 3px;
-  left: 6px;
+  top: 1px;
+  left: 5px;
   width: 5px;
   height: 10px;
   border: solid rgba(63, 94, 114, 1);
   border-width: 0 2px 2px 0;
-  -webkit-transform: rotate(40deg);
-  -ms-transform: rotate(40deg);
-  transform: rotate(40deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
-
-
-/* Radio */
 .control-input[type="radio"] + .control-mark {
   border-radius: 50%;
 }
 
 .control-input[type="radio"]:checked + .control-mark::before {
   position: absolute;
-  top: 5px;
-  left: 5px;
+  top: 3px;
+  left: 3px;
   width: 10px;
   height: 10px;
   background-color: rgba(63, 94, 114, 1);
@@ -1121,11 +1107,8 @@ input:active {
   content: "";
 }
 
-.control-input:focus,
-.control-input:focus-visible {
-  outline: none;
-  -webkit-box-shadow: 0 0 0 2px #68A2CA;
-  box-shadow: 0 0 0 2px #68A2CA;
+.control-input:disabled + .control-mark {
+  border-color: #242424;
 }
 
 

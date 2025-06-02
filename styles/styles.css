@@ -760,7 +760,7 @@ body {
   grid-template-columns: 452px 232px;
 }
 
-input {
+.input-field {
   border-radius: 4px 0 0 4px;
   font-family: PT Sans, Arial, sans-serif;
   font-size: 18px;
@@ -771,17 +771,20 @@ input {
   background-color: #F2F2F2;
 }
 
-input:hover {
+
+.input-field:hover {
   outline: none;
 }
 
-input:focus {
+.input-field:focus {
   outline: none;
 }
 
-input:active {
+.input-field:active {
   outline: none;
 }
+
+
 
 .subscribe-button {
   padding: 8px 50px 8px 50px;
